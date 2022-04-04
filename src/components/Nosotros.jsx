@@ -1,5 +1,5 @@
 import Line from '../assets/img/Line.svg';
-
+import '../styles/css/Nosotros.css';
 const Nosotros = () => {
     return ( 
     <>
