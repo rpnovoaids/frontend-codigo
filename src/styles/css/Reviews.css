@@ -40,7 +40,7 @@
     transition: all 0.5s;
 }
 .reviews__reviews-review__testimonials:hover{
-    background:linear-gradient(to right,rgba(0, 0, 0, 0.146),rgba(128, 0, 128, 0.735));
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.146),rgba(95, 8, 95, 0.735));
     transition: all 0.5s;
 
     
@@ -68,4 +68,12 @@
     color: black;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+@media(min-width:850px){
+    .reviews__reviews-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
