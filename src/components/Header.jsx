@@ -1,7 +1,8 @@
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {NavLink} from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleDown, faBars, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 import '../styles/css/Header.css';
+
 const Header = () => {
     return (
         <>
@@ -12,15 +13,17 @@ const Header = () => {
                 <div className="header-main">
                     <div className="header-main__logo">
                         <NavLink to="/" className="header-main__link-logo-container">
-                            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/386/original/DF7D74F4-9855-4543-B537-11BD228060BA.png?1649475522" alt="Brand" className="header-main__link-logo"/>
+                            <img
+                                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/386/original/DF7D74F4-9855-4543-B537-11BD228060BA.png?1649475522"
+                                alt="Brand" className="header-main__link-logo"/>
                         </NavLink>
                     </div>
                     <div className="header-main__search">
                         <form className="header-main__search-form" action="#">
                             <input className="header__search-input" type="text" placeholder="¿Qué estas buscando?"/>
-                                <button className="header__search-button" type="submit">
-                                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                                </button>
+                            <button className="header__search-button" type="submit">
+                                <FontAwesomeIcon icon={faMagnifyingGlass}/>
+                            </button>
                         </form>
                     </div>
                     <div className="header-main__card">
@@ -45,12 +48,11 @@ const Header = () => {
                 <div className="header-navbar">
                     <div className="header-navbar__category">
                         <label htmlFor="category" className="header-category__icon">
-                            <FontAwesomeIcon icon={faBars} />
+                            <FontAwesomeIcon icon={faBars}/>
                             <span className="header-category__title">Categorias</span>
-                            <FontAwesomeIcon icon={faAngleDown} />
+                            <FontAwesomeIcon icon={faAngleDown}/>
                         </label>
-                        <input type="checkbox" name="category" id="category" className="header-category__checkbox"
-                               defaultChecked={true}/>
+                        <input type="checkbox" name="category" id="category" className="header-category__checkbox"/>
                         <ul className="header-category__link-list">
                             <li className="header-category__link-item">
                                 <a href="#" className="header-category__link"><i
@@ -87,7 +89,7 @@ const Header = () => {
                         <nav className="header-nav" id="header-nav">
                             <div className="header-nav__container">
                                 <label htmlFor="nav" className="header-nav__nav-icon">
-                                    <FontAwesomeIcon icon={faBars} />
+                                    <FontAwesomeIcon icon={faBars}/>
                                 </label>
                                 <input type="checkbox" name="nav" id="nav" className="header-nav__nav-checkbox"/>
                                 <ul className="header-nav__link-list">
@@ -98,7 +100,7 @@ const Header = () => {
                                         <NavLink to="/" className="header-nav__link">Productos</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
-                                        <NavLink to="/" className="header-nav__link">Reviews</NavLink>
+                                        <NavLink to="/reviews" className="header-nav__link">Reviews</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
                                         <NavLink to="/" className="header-nav__link">Contacto</NavLink>
