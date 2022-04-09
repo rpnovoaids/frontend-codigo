@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="header-main">
                     <div className="header-main__logo">
                         <NavLink to="/" className="header-main__link-logo-container">
-                            <img src="./img/brand.svg" alt="Brand" className="header-main__link-logo"/>
+                            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/386/original/DF7D74F4-9855-4543-B537-11BD228060BA.png?1649475522" alt="Brand" className="header-main__link-logo"/>
                         </NavLink>
                     </div>
                     <div className="header-main__search">
