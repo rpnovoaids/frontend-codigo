@@ -1,0 +1,13 @@
+.background{
+background-size: cover;
+}
+.alpaca{
+  width: 80%}
+.title{
+  width:90%;
+  padding-top:2rem;
+}
+#elements{
+  display: flex;
+  flex-direction:column;
+  grid-templare-columns:1fr;
