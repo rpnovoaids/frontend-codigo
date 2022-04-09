@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Header from "./components/Header";
 import Nosotros from './components/Nosotros';
@@ -11,9 +11,9 @@ function App() {
         <>
             <Router>
                 <Routes>
-                <Route  path='/' element={<><Home/></>}/>
-                <Route  path='/nosotros' element={<><Header/><Nosotros/></>}/>
-                <Route path="*" component={PageNotFound} />
+                    <Route path='/' element={<><Home/></>}/>
+                    <Route path='/nosotros' element={<><Header/><Nosotros/></>}/>
+                    <Route path="*" component={PageNotFound}/>
                 </Routes>
             </Router>
         </>
