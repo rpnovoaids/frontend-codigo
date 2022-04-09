@@ -1,4 +1,4 @@
-import Line from '../assets/img/Line.svg';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faAngleDown, faBars, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 import '../styles/css/Header.css';
@@ -11,9 +11,9 @@ const Header = () => {
             <div className="header-container">
                 <div className="header-main">
                     <div className="header-main__logo">
-                        <a href="#" className="header-main__link-logo-container">
+                        <NavLink to="/" className="header-main__link-logo-container">
                             <img src="./img/brand.svg" alt="Brand" className="header-main__link-logo"/>
-                        </a>
+                        </NavLink>
                     </div>
                     <div className="header-main__search">
                         <form className="header-main__search-form" action="#">
@@ -91,16 +91,16 @@ const Header = () => {
                                 <input type="checkbox" name="nav" id="nav" className="header-nav__nav-checkbox"/>
                                 <ul className="header-nav__link-list">
                                     <li className="header-nav__link-item">
-                                        <a href="#" className="header-nav__link">Nosotros</a>
+                                        <NavLink to="/nosotros" className="header-nav__link">Nosotros</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
-                                        <a href="#" className="header-nav__link">Productos</a>
+                                        <NavLink to="/" className="header-nav__link">Productos</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
-                                        <a href="#" className="header-nav__link">Reviews</a>
+                                        <NavLink to="/" className="header-nav__link">Reviews</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
-                                        <a href="#" className="header-nav__link">Contacto</a>
+                                        <NavLink to="/" className="header-nav__link">Contacto</NavLink>
                                     </li>
                                 </ul>
                             </div>
