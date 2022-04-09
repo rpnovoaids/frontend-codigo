@@ -50,7 +50,7 @@ const Header = () => {
                             <FontAwesomeIcon icon={faAngleDown} />
                         </label>
                         <input type="checkbox" name="category" id="category" className="header-category__checkbox"
-                               checked/>
+                               defaultChecked={true}/>
                         <ul className="header-category__link-list">
                             <li className="header-category__link-item">
                                 <a href="#" className="header-category__link"><i
@@ -79,6 +79,7 @@ const Header = () => {
                             <li className="header-category__link-item">
                                 <a href="#" className="header-category__link">
                                     <i className="fas fa-angle-right"></i> Biscuits & Snacks</a>
+
                             </li>
                         </ul>
                     </div>
