@@ -10,4 +10,4 @@ background-size: cover;
 #elements{
   display: flex;
   flex-direction:column;
-  grid-templare-columns:1fr;
+  grid-template-columns:1fr;
