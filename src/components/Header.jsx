@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div className="top-bar">
-                <p className="top-bar__text">Delivery gratis desde S/. 100</p>
+                <p className="top-bar__text">DELIVERY GRATIS PARA TUS COMPRAS DESDE S/. 299</p>
             </div>
             <div className="header-container">
                 <div className="header-main">
