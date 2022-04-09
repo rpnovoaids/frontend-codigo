@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9980f014-4ed4-47fe-970d-5fe4656cc797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/FooterContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/styles/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/styles/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/avatars/avatar-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Reviews.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/css/Reviews.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/slider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,9 +43,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\htdocs\codigo\frontend-codigo\src\components" />
       <recent name="D:\Web\htdocs\codigo\frontend-codigo\src\assets\img\slider" />
       <recent name="D:\Web\htdocs\codigo\frontend-codigo\src\styles\css" />
-      <recent name="D:\Web\htdocs\codigo\frontend-codigo\src\components" />
       <recent name="D:\Web\htdocs\codigo\frontend-codigo\src\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +77,7 @@
       <workItem from="1649473975519" duration="1546000" />
       <workItem from="1649510785554" duration="2190000" />
       <workItem from="1649517343827" duration="554000" />
-      <workItem from="1649517917097" duration="2962000" />
+      <workItem from="1649517917097" duration="3535000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1649469108983</created>
