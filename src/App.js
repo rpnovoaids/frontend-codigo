@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Header from "./components/Header";
 import Nosotros from './components/Nosotros';
 import Home from './pages/Home';
-import PageNotFound from './404Page';
+import PageNotFound from './pages/404Page';
 
 function App() {
     return (
