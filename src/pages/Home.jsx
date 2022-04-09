@@ -1,15 +1,15 @@
 import Header from "../components/Header";
-import Nosotros from "../components/Nosotros";
-import Main from "../components/Main";
-import Splides from "../components/Splides";
+
+// componentes de robert
+import HomeContent from "./HomeContent";
 
 const Home = () => {
-    return ( <>
+  return (
+    <>
+      <Header />
+      <HomeContent />
+    </>
+  );
+};
 
-    <Splides/>
-    <Main/>
-    <Nosotros/>
-    </> );
-}
- 
 export default Home;
