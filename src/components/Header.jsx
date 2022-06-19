@@ -103,7 +103,7 @@ const Header = () => {
                                         <NavLink to="/reviews" className="header-nav__link">Reviews</NavLink>
                                     </li>
                                     <li className="header-nav__link-item">
-                                        <NavLink to="/" className="header-nav__link">Contacto</NavLink>
+                                        <NavLink to="/contactanos" className="header-nav__link">Contactanos</NavLink>
                                     </li>
                                 </ul>
                             </div>
