@@ -1,0 +1,24 @@
+.section-down {
+        font-size: medium;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          padding: 0 5rem;
+      }
+      .empresas-logos , .marcas-logos {
+        display: flex;
+         justify-content: space-between;
+         padding: 0 6rem;
+         
+
+      }
+      .empresa-logo {
+        width: 5rem;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .marca-logo {
+        width: 5rem;
+        border-radius: 50%;
+        overflow: hidden;
+      }
