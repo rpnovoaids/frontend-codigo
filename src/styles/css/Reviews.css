@@ -21,14 +21,15 @@
     
 }
 .reviews__reviews-container{
-   
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    margin: auto;
+    justify-content: center;
 }
 .reviews__reviews-review{
     max-width: 300px;
-    max-height: 500px;
     padding: 0 2rem;
    
 }
@@ -52,7 +53,7 @@
     border-radius: 50%;
 }
 .reviews__reviews-review__name{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
@@ -66,14 +67,11 @@
 }
 .reviews__reviews-review__description{
     color: black;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 @media(min-width:850px){
-    .reviews__reviews-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+    
 
 }
