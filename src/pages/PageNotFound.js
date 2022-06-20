@@ -1,9 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../styles/css/PageNotFound.css';
 
 const PageNotFound = () => {
   return(
-    <div >
+
     <div className="bodyNotFound">
       <img
         className="title"
@@ -17,8 +18,10 @@ const PageNotFound = () => {
         alt="llama espacial artesaner"
         id="elements"
       />
+      <NavLink to="/" className="volver">
+        ...Volver
+      </NavLink>
     </div>
-  </div>
   )
 
    

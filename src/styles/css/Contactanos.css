@@ -1,13 +1,8 @@
-.contactanos{
-    
-}
+.contactanos{}
 .contactanos-container{
     padding-bottom: 5rem;
 }
-.contactanos-container__mensaje-container{
-
-
-}
+.contactanos-container__mensaje-container{}
 .contactanos-container__mensaje{
     color: white;
     text-shadow: 5px 5px 5px rgb(106, 106, 106),
