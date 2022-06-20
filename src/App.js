@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import PageNotFound from './pages/PageNotFound';
 import Contactanos from './components/Contactanos';
 import Products from './components/Products';
+import FooterContainer from './components/FooterContainer';
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
-                    <Route path='/nosotros' element={<><Header/><Nosotros/></>}/>
+                    <Route path='/nosotros' element={<><Header/><Nosotros/><FooterContainer/></>}/>
                     <Route path='/reviews' element={<><Header/><Reviews/></>}/>
                     <Route path='/contactanos' element={<><Header/><Contactanos/></>}/>
                     <Route path='/productos' element={<><Header/><Products/></>}/>

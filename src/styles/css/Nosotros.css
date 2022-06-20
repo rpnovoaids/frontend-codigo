@@ -16,7 +16,7 @@
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 1rem;
     gap: 2rem;
     /*background-color: rgba(178, 141, 206, 0.459);
     background-image: linear-gradient(0deg, #000000b1 50%, #8e8e8e86 100%);*/
@@ -96,8 +96,8 @@
     transform: perspective(50rem) rotateY(0deg); 
 }
 .staff__img-container{
-    width: 12rem;
-    height: 16rem;
+    width: 10rem;
+    height: 14rem;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -158,7 +158,7 @@
     font-size: 2rem;
     margin: 0.7rem auto;
     letter-spacing: 0.2rem;
-    background-color: rgba(146, 146, 146, 0.583);
+    background-color: #8e8eca9d;
     color: white;
 }
 
@@ -189,8 +189,11 @@
 
     .nosotros-container{
         padding: 0 7rem;
-        padding-top: 6rem;
+        padding-top: 2rem;
     }
+    .staff__img-container{
+        width: 12rem;
+        height: 16rem;}
 
     .section-artistas{
         max-width: 1800px;
@@ -218,7 +221,50 @@
         margin: 0;
         font-size: 2rem;
     }
+}
 
+@media ( min-width: 1500px) {
 
-
+    .nosotros-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+        align-items: center;
+        padding: 4rem;
+    }
+    .staff__container-title{
+        background-color: #5d5ae3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: white;
+    }
+    .nosotros-title{
+        background-color: #5d5ae3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: white;
+    }
+    .nosotros-subtitle{
+        background-color: #5d5ae3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: white;
+    }
+    .nosotros-about{
+        background-color: #8e8eca9d;
+        padding: 1rem;
+    }
+        
 }

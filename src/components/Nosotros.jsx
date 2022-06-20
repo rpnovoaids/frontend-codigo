@@ -23,11 +23,11 @@ const Nosotros = () => {
             del Bootcamp Desarrollo Web Full Stack, una iniciativa de CodiGo y
             esHoy{" "}
           </p>
-
-          <section className="staff">
-            <div className="staff__container-title">
+          <div className="staff__container-title">
               <h2 className="nosotros-subtitle">Nuestro Equipo</h2>
             </div>
+          <section className="staff">
+            
             <div className="staff__all">
               <article className="staff__article">
                 <div className="staff__container">
