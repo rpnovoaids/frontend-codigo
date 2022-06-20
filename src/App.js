@@ -13,15 +13,17 @@ function App() {
         <>
             <Router>
                 <Routes>
-                    <Route path='/' element={<><Home/></>}/>
+                    <Route path='/' element={<Home/>}/>
                     <Route path='/nosotros' element={<><Header/><Nosotros/></>}/>
                     <Route path='/reviews' element={<><Header/><Reviews/></>}/>
                     <Route path='/contactanos' element={<><Header/><Contactanos/></>}/>
-                    <Route path="*" component={PageNotFound}/>
+                    <Route path='*' element={<PageNotFound/>}/>
+                    
                 </Routes>
             </Router>
         </>
     );
 }
 
+/*<Route path="/*" component={PageNotFound}/>*/
 export default App;

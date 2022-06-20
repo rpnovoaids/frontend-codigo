@@ -56,7 +56,7 @@ const Nosotros = () => {
                     <img
                       className="staff__img"
                       width="70px"
-                      src="https://i.pinimg.com/originals/06/86/7b/06867b5651569ee604ad62bc7120649f.jpg"
+                      src="https://avatars.githubusercontent.com/u/98435713?v=4"
                       alt="Febe Chacon"
                     />
                   </figure>
@@ -145,7 +145,7 @@ const Nosotros = () => {
                   <figure className="staff__img-container">
                     <img
                       className="staff__img"
-                      src="https://media-exp1.licdn.com/dms/image/C4D03AQGIukU6tM56gQ/profile-displayphoto-shrink_800_800/0/1641773283959?e=1654128000&v=beta&t=Blh6SbZycyhKP6ciEvuFeMurQx2cB50QhKKOzwCPn1w"
+                      src="https://i.pinimg.com/originals/06/86/7b/06867b5651569ee604ad62bc7120649f.jpg"
                       alt="Victoria Lavarello"
                     />
                   </figure>
@@ -167,7 +167,7 @@ const Nosotros = () => {
                     <img
                       className="staff__img"
                       width="70px"
-                      src="https://i.pinimg.com/originals/06/86/7b/06867b5651569ee604ad62bc7120649f.jpg"
+                      src="https://avatars.githubusercontent.com/u/43274241?v=4"
                       alt="Ruben Puerta"
                     />
                   </figure>

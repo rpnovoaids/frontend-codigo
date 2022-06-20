@@ -1,0 +1,150 @@
+.contactanos{
+    
+}
+.contactanos-container{
+    padding-bottom: 5rem;
+}
+.contactanos-container__mensaje-container{
+
+
+}
+.contactanos-container__mensaje{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(106, 106, 106),
+                 1px 1px 3px black   ;
+    
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.contactanos-container__formulario{
+    background-color: #f8d45e;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+}
+.contactanos-container__formulario-img-container{
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 200px;
+}
+.contactanos-container__formulario-img{
+    height: 100%;
+    
+}
+.contactanos-container__formulario-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contactanos-container__formulario-form-titulo{
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 3px black   ;
+}
+.contactanos-container__formulario-form-nombre{
+    width: 15rem;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+.contactanos-container__formulario-form-nombre:focus{
+    border: 5px #fc8829;
+    
+}
+.contactanos-container__formulario-form-email{
+    width: 15rem;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+.contactanos-container__formulario-form-mensaje{
+    width: 15rem;
+    height: 8rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+.contactanos-container__formulario-form-boton{
+    width: 5rem;
+    height: 3rem;
+    background-color: #fc8829;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.contactanos-container__formulario-form-boton:focus{
+    background-color: white;
+    color: rgb(101, 100, 100);
+}
+
+
+@media ( min-width: 700px) {
+
+    .contactanos-container{
+        max-width: 1300px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7rem;
+        margin: auto;
+        padding: 0 2rem;
+        padding-bottom: 5rem;
+    }
+    .contactanos-container__mensaje{
+        font-size: 3rem;
+        padding: 2rem;
+        margin: 0;
+    }
+    .contactanos-container__formulario{
+        display: block;
+        padding-left: 15rem;
+        padding-top: 0;
+        max-width: 600px;
+        
+    }
+    .contactanos-container__formulario-img-container{
+        position: relative;
+        right: 130%;
+        top: 220px;
+        height: 250px;
+        box-shadow: 10px 10px 20px rgb(55, 54, 54);
+        
+    }
+    .contactanos-container__formulario-form-titulo{
+        font-size: 1.5rem;
+    }
+    .contactanos-container__formulario-form{
+        margin-top: -13rem;
+    }
+
+}
+
+@media ( min-width: 1500px) {
+
+    .contactanos-container{
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 7rem;
+        grid-auto-flow: column;
+        margin: auto;
+    }
+    .contactanos-container__mensaje{
+        font-size: 4rem;
+    }
+
+}
