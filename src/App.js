@@ -10,6 +10,7 @@ import Contactanos from './components/Contactanos';
 import Products from './components/Products';
 import FooterContainer from './components/FooterContainer';
 import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path='/contactanos' element={<><Header/><Contactanos/></>}/>
                     <Route path='/productos' element={<><Header/><Products/></>}/>
                     <Route path='/login' element={<Login/>}/>
+                    <Route path='/login/sign-up' element={<SignUp/>}/>
                     <Route path='*' element={<PageNotFound/>}/>
                     
                 </Routes>
