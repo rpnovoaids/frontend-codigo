@@ -1,0 +1,67 @@
+.login{
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/392/original/91DE8079-3A3D-4D02-A317-BD18903CE4CA.png?1649495448");
+    background-size: cover;
+
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 200px;
+    
+}
+.form{
+    background-color: #5d5ae3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem 2rem;
+
+}
+.login-container__title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+.login-container__user{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+.login-container__password{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+.login-container__button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0 1rem;
+    background-color: #3936da;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.login-container__message{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.login-container__back{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
